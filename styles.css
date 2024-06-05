@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('https://assets.exclaim.ca/image/upload/v1704475655/parappa-the-rapper.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+  background-color: rgba(55, 53, 53, 0.251);
+}
+
+.content {
+  padding: 50px 20px;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  margin-top: 0;
+}
+
+#videoContainer {
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+}

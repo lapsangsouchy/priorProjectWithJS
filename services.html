@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Welcome to Our Website</h1>
+    </section>
+
+    <section class="content services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <ul id="servicesList">
+          <li>Tutorials</li>
+          <li>Production Assistance</li>
+          <li>Rick Astley Distribution</li>
+        </ul>
+      </div>
+      <div class="container" id="videoContainer">
+        <h2>Video Player</h2>
+        <iframe
+          id="videoIframe"
+          width="560"
+          height="315"
+          src=""
+          frameborder="0"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <script src="services.js"></script>
+  </body>
+</html>
